@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevOps Lifecycle</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: coral;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .circle {
+      background-color:red;
+      color: white;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+      margin: 10px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .arrow-down {
+      width: 2px;
+      height: 30px;
+      background-color: solid black;
+      position: relative;
+    }
+
+    .arrow-down::after {
+      content: '';
+      position: absolute;
+      left: -5px;
+      bottom: -10px;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 10px solid #333;
+    }
+
+    .footer-note {
+      margin-top: 30px;
+      font-style: italic;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>DevOps Lifecycle</h1>
+
+  <div class="container">
+    <div class="circle">Plan</div>
+    <div class="arrow-down"></div>
+
+    <div class="circle">Develop</div>
+    <div class="arrow-down"></div>
+
+    <div class="circle">Build</div>
+    <div class="arrow-down"></div>
+
+    <div class="circle">Test</div>
+    <div class="arrow-down"></div>
+
+    <div class="circle">Release</div>
+    <div class="arrow-down"></div>
+
+    <div class="circle">Deploy</div>
+    <div class="arrow-down"></div>
+
+    <div class="circle">Operate</div>
+    <div class="arrow-down"></div>
+
+    <div class="circle">Monitor</div>
+    <div class="arrow-down"></div>
+
+    <div class="circle">Plan</div>
+  </div>
+</body>
+</html>
